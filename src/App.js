@@ -8,6 +8,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
 
+// TODO 함수형 컴포넌트로 수
 class App extends Component {
   constructor(props) {
     super(props);
