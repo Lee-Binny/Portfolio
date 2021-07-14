@@ -3,9 +3,8 @@
     "title": "Binny Portfolio",
     "name":"Subin Lee",
     "description":"Hello! My name is Subin Lee. I am a game server developer and web publisher, currently learning React, Golang and Network",
-    "image":"profilepic.jpg",
-    "bio":"I majored in Computer engineering, especially software development. I worked as Server Developer",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "image":"profile.jpeg",
+    "bio":"I majored in Computer engineering, especially software development. I worked as Web Server Developer in Busan. ",
     "email": "qlsdl9516@gmail.com",
     "github":"https://github.com/Lee-Binny",
     "address":{
@@ -15,40 +14,19 @@
     "website": "http://www.timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/Lee-Binny",
         "className":"fa fa-github"
       }
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"Dongseo University",
         "degree":"Computer Engineering",
         "period":"March 2015 - February 2019",
-        "description":"Learning About Database Design, Software Development and UI design"
+        "description":"Learning About Database Design, Software Development and UI design and so on"
       }
     ],
     "work":[
@@ -62,37 +40,54 @@
         "company":"Treenod",
         "title":"Server & Admin Tool Developer",
         "years":"October 2019 - July 2021",
-        "description":"Developing a Web Server in Golang, MySQL and Redis / Developing an Admin Tool in React / Database Design"
+        "description":"Building REST APIs with Golang using Gin Framework and Gorm / Developing an Admin Tool in React / Database Design / Handling MySQL and Redis Database / Creating an Auto Generator Tool"
       }
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "name":"Golang",
+        "level":"80%",
+        "color": "#00ADD8"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"C",
+        "level":"50%",
+        "color": "#A8B9CC"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
+        "name":"Node.JS",
+        "level":"70%",
+        "color": "#339933"
       },
       {
         "name":"PHP",
-        "level":"80%"
+        "level":"60%",
+        "color": "#777BB4"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name":"React",
+        "level":"80%",
+        "color": "#61DAFB"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"HTML/CSS",
+        "level":"90%",
+        "color": "#E34F26"
+      },
+      {
+        "name":"Javascript",
+        "level":"80%",
+        "color": "#F7DF1E"
+      },
+      {
+        "name":"MySQL",
+        "level":"90%",
+        "color": "#4479A1"
+      },
+      {
+        "name":"Linux",
+        "level":"50%",
+        "color": "#bb1212"
       }
     ]
   },

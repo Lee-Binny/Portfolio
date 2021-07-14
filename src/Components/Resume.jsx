@@ -2,15 +2,6 @@ import React from "react";
 import Slide from "react-reveal";
 
 const Resume = (props) => {
-  const getRandomColor = () => {
-    let letters = "0123456789ABCDEF";
-    let color = "#";
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  };
-
   if (!props.data) return null;
 
   const education = props.data.education.map((education) => {
@@ -40,7 +31,7 @@ const Resume = (props) => {
   });
 
   const skills = props.data.skills.map((skills) => {
-    const backgroundColor = getRandomColor();
+    const backgroundColor = skills.color;
     const className = "bar-expand " + skills.name.toLowerCase();
     const width = skills.level;
 
@@ -91,8 +82,6 @@ const Resume = (props) => {
           </div>
 
           <div className="nine columns main-col">
-            <p>{props.data.skillmessage}</p>
-
             <div className="bars">
               <ul className="skills">{skills}</ul>
             </div>
