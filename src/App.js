@@ -16,6 +16,7 @@ const App = () => {
       <Header data={data.main} />
       <About data={data.main} />
       <Resume data={data.resume} />
+      <Portfolio data={data.portfolio} />
       <Contact data={data.main} />
       <Footer data={data.main} />
     </div>
