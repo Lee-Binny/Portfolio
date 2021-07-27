@@ -97,6 +97,12 @@
         "category":"A project to create chat application using Golang and React",
         "image":"go-chat.png",
         "url":"https://github.com/Lee-Binny/go-chat"
+      },
+      {
+        "title":"Go Admin",
+        "category":"A project to create chat application using Golang and React",
+        "image":"go-admin.png",
+        "url":"https://github.com/Lee-Binny/go-admin"
       }
     ]
   }
