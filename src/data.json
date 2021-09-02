@@ -103,6 +103,12 @@
         "category":"A project to create chat application using Golang and React",
         "image":"go-admin.png",
         "url":"https://github.com/Lee-Binny/go-admin"
+      },
+      {
+        "title":"Node Guilds",
+        "category":"A project to create chat application using Node.js and React",
+        "image":"node-guilds.png",
+        "url":"https://github.com/Lee-Binny/node-guild-platform"
       }
     ]
   }
