@@ -97,7 +97,7 @@
         "category":"A project to create chat application using Golang and React",
         "image":"go-chat.png",
         "url":"https://github.com/Lee-Binny/go-chat",
-        "tag": ["golang", "react", "web socket", "mysql"]
+        "tag": ["golang", "react", "websocket", "mysql"]
       },
       {
         "title":"Go Admin",
@@ -111,7 +111,7 @@
         "category":"A project to create chat application using Node.js and React",
         "image":"node-guilds.png",
         "url":"https://github.com/Lee-Binny/node-guild-platform",
-        "tag": ["node.js", "react", "mysql"]
+        "tag": ["node.js", "react", "typescript", "mysql"]
       }
     ]
   }

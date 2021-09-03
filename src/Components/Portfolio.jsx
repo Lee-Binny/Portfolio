@@ -18,9 +18,9 @@ const Portfolio = (props) => {
               {projects.title}
             </a>
           </div>
-          <div style={{ textAlign: "center", backgroundColor: "#f9f7f7d1" }}>
+          <div style={{ textAlign: "center", backgroundColor: "#f9f7f7d1", padding: "0 10px" }}>
               {projects.tag.map((tag) => {
-                return <span style={{marginRight: '0.8rem'}}>#{tag}</span>
+                return <div style={{marginRight: "0.8rem", display: "inline-block"}}>#{tag}</div>
               })}
           </div>
         </div>
