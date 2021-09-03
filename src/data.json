@@ -96,19 +96,22 @@
         "title":"Go Chat",
         "category":"A project to create chat application using Golang and React",
         "image":"go-chat.png",
-        "url":"https://github.com/Lee-Binny/go-chat"
+        "url":"https://github.com/Lee-Binny/go-chat",
+        "tag": ["golang", "react", "web socket", "mysql"]
       },
       {
         "title":"Go Admin",
         "category":"A project to create chat application using Golang and React",
         "image":"go-admin.png",
-        "url":"https://github.com/Lee-Binny/go-admin"
+        "url":"https://github.com/Lee-Binny/go-admin",
+        "tag": ["golang", "react", "mysql"]
       },
       {
         "title":"Node Guilds",
         "category":"A project to create chat application using Node.js and React",
         "image":"node-guilds.png",
-        "url":"https://github.com/Lee-Binny/node-guild-platform"
+        "url":"https://github.com/Lee-Binny/node-guild-platform",
+        "tag": ["node.js", "react", "mysql"]
       }
     ]
   }
