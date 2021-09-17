@@ -2,9 +2,9 @@
   "main": {
     "title": "Binny Portfolio",
     "name":"Subin Lee",
-    "description":"Hello! My name is Subin Lee. I am a game server developer and web publisher, currently learning React, Golang and Network",
+    "description":"Hello! My name is Subin Lee. I am a game server and web developer, currently learning React, Golang, Node.JS and Network",
     "image":"profile.jpeg",
-    "bio":"I majored in Computer engineering, especially software development. I worked as Web Server Developer in Busan. ",
+    "bio":"I am a computer engineering major with a minor in sofrware. I worked as Server Developer in Busan.",
     "email": "qlsdl9516@gmail.com",
     "github":"https://github.com/Lee-Binny",
     "address":{
