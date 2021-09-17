@@ -11,17 +11,18 @@ const Portfolio = (props) => {
 
     return (
       <div key={id++} className="columns portfolio-item">
-        <div className="item-wrap">
+        <div className="item-wrap" style={{ minHeight: "400px" }}>
           <Zmage alt={projects.title} src={projectImage} />
-          <div style={{ textAlign: "center" }}>
-            <a href={projects.url} target="_blank" rel="noreferrer">
-              {projects.title}
-            </a>
-          </div>
-          <div style={{ textAlign: "center", backgroundColor: "#f9f7f7d1", padding: "0 10px" }}>
+          <div style={{ textAlign: "left", padding: "10px" }}>
+            <h5>{projects.title}</h5>
+            <div>
               {projects.tag.map((tag) => {
                 return <div style={{marginRight: "0.8rem", display: "inline-block"}}>#{tag}</div>
               })}
+            </div>
+            <a href={projects.url} target="_blank" rel="noreferrer">
+              View Code
+            </a>
           </div>
         </div>
       </div>
@@ -33,11 +34,14 @@ const Portfolio = (props) => {
       <Fade left duration={1000} distance="40px">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>
+              <span>Works</span>
+            </h1>
+            <h3>Check Out Some of My Works.</h3>
 
             <div
               id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
+              className="bgrid-halves s-bgrid-halves cf"
             >
               {projects}
             </div>
